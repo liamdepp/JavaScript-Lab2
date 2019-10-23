@@ -1,3 +1,4 @@
+"use strict";
 /*----------Random Damage Arrow Function----------*/
 const randomDamage = () => {
     return Math.floor(Math.random() * 10 + 1);
@@ -32,11 +33,7 @@ const logDeath = (winner, loser) => {
 
 /*----------Is Dead Arrow Function----------*/
 const isDead = (health) =>{
-    if (health <= 0) {
-        return true;
-    } else {
-        return false;
-    }
+    return health <= 0;
 }
 
 
