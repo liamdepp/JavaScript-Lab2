@@ -61,4 +61,7 @@ function fight(player1, player2, player1Health, player2Health){
         }
     }
 }
+
+
+/*----------The Fight----------*/
 fight("Liam", "Abbie", 100, 100);
